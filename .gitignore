@@ -1,0 +1,17 @@
+# colcon workspace output
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Model weights (Ultralytics downloads yolov8n.pt on first run)
+*.pt
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
